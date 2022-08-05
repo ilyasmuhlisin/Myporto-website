@@ -38,7 +38,8 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-pattern.jpg);
+  background: #1A1A40;
+  /* background-image: url(../src/assets/bg1.jpg); */
 }
 
 /* ==================general styles============== */
