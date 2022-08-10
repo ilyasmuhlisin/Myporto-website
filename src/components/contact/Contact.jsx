@@ -40,19 +40,22 @@ const Contact = () => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>ilyasmhlsn@gmail.com</h5>
             <a href="mailto:ilyasmhlsn@gmail.com" target="_blank">
               Send a message
             </a>
-          </article>
+          </article> */}
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+6281228892447</h5>
-            <a href="mailto:ilyasmhlsn@gmail.com" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=6281228892447"
+              target="_blank"
+            >
               Send a message
             </a>
           </article>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/tehpucuk.jpg";
+import ME from "../../assets/img3.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About Image" height={500} />
           </div>
         </div>
         <div className="about__content">
@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>6+ Month</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -31,14 +31,15 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Project</h5>
-              <small>3+ Completed</small>
+              <small>4+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            enim eligendi accusantium modi impedit iusto. Facilis cupiditate
-            ipsam reprehenderit magni, vitae, itaque qui dignissimos ut optio
-            eum, nulla repudiandae rem!
+            Saya adalah mahasiswa semester 7 program studi Teknik Informatika di
+            Universitas Muhammadiyah Surakarta. Saya bertujuan untuk menjadi
+            seorang software developer. Semantara saya fokus untuk meningkatkan
+            kemampuan pembuatan website, oleh karena itu saya selalu tertantang
+            dengan proyek baru dalam pembuatan website
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
