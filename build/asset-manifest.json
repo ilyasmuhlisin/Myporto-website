@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Myporto-website/static/css/main.c8c1c321.css",
+    "main.js": "/Myporto-website/static/js/main.7db2a287.js",
+    "static/media/img3.png": "/Myporto-website/static/media/img3.f9c132067c195f029a45.png",
+    "static/media/img.png": "/Myporto-website/static/media/img.f612d9e3333e34b55674.png",
+    "static/media/CV.pdf": "/Myporto-website/static/media/CV.b0481a0a2d69c60bcf59.pdf",
+    "static/media/tehpucuk.jpg": "/Myporto-website/static/media/tehpucuk.54f1e68e1f6f2e78555c.jpg",
+    "index.html": "/Myporto-website/index.html",
+    "main.c8c1c321.css.map": "/Myporto-website/static/css/main.c8c1c321.css.map",
+    "main.7db2a287.js.map": "/Myporto-website/static/js/main.7db2a287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8c1c321.css",
+    "static/js/main.7db2a287.js"
+  ]
+}
