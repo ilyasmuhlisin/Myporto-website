@@ -63,7 +63,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>E-commerce AtTech Website</p>
+              <p>E-commerce JS Mastery with stripe</p>
             </li>
           </ul>
         </article>

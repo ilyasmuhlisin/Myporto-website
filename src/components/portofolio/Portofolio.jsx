@@ -19,13 +19,13 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "SecondHand Website",
+    title: "E-commerce SecondHand Website",
     github: "https://github.com/second-hand-kelompok2",
   },
   {
     id: 3,
     image: IMG3,
-    title: "AtTech Website",
+    title: "Ecommerce JS Mastery with stripe",
     github: "https://github.com",
   },
   {
