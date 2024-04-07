@@ -210,6 +210,22 @@ function Services() {
                 Github
               </a>
             </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <div>
+                <p>Percetakan Ikhlas E-commerce Website</p>
+                <p>
+                  (CSS, Tailwind, React, Redux, Nodejs, ExpressJs, MongoDBL)
+                </p>
+              </div>
+              <a
+                href="https://github.com/ilyasmuhlisin/perc-ikhlas"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+            </li>
           </ul>
         </article>
       </div>
