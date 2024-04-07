@@ -5,29 +5,135 @@ import { BiCheck } from "react-icons/bi";
 function Services() {
   return (
     <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>My Recent Work</h5>
+      <h2>Portofolio</h2>
       <div className="container service__container">
         <article className="service">
           <div className="service__head">
-            <h3>Frontend Web</h3>
+            <h3>Frontend</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Website Kayon OS</p>
+              <div>
+                <p>Website Kayon OS</p>
+                <p>(CSS, Javascript, Bootstrap)</p>
+              </div>
+              <a href="" className="btn" target="_blank">
+                Github
+              </a>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Binar Rental Car</p>
+              <div>
+                <p>Binar Rental Car Web</p>
+                <p>(CSS, React-Bootstrap, Reactjs)</p>
+              </div>
+              <a
+                href="hhttps://github.com/ilyasmuhlisin/binar-academy-challenge"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>List Movie</p>
+              <div>
+                <p>List Movie Web</p>
+                <p>(CSS, React-Bootstrap, Reactjs)</p>
+              </div>
+              <a
+                href="https://github.com/ilyasmuhlisin/Basic-Nextjs"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Portfolio</p>
+              <div>
+                <p>Portofolio Web</p>
+                <p>(CSS, Reactjs)</p>
+              </div>
+              <a
+                href="https://github.com/ilyasmuhlisin/Myporto-website"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <div>
+                <p>BPRS Dana Amanah Web</p>
+                <p>(CSS, React-Bootstrap, Reactjs)</p>
+              </div>
+              <a
+                href="https://github.com/ilyasmuhlisin/BPRS-Dana-Amanah"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <div>
+                <p>News Blog Web</p>
+                <p>(CSS, Tailwind, Reactjs, Redux)</p>
+              </div>
+              <a
+                href="https://github.com/Hacktiv8-project1/news-project1"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <div>
+                <p>Movies Project Web</p>
+                <p>(CSS, Tailwind, Reactjs, Redux)</p>
+              </div>
+              <a
+                href="https://github.com/Hacktiv8-Project4/movies-project"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <div>
+                <p>Ecommerce Blipedia Web</p>
+                <p>(CSS, Tailwind, Reactjs, Redux)</p>
+              </div>
+              <a
+                href="https://github.com/Hacktiv8-Project2/ecommerce-project2"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <div>
+                <p>Hotel Reservation Mobile App</p>
+                <p>(CSS, Tailwind, React Native, Redux)</p>
+              </div>
+              <a
+                href="https://github.com/Hacktiv8-Project3/HoRes-mobile"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
             </li>
           </ul>
         </article>
@@ -39,7 +145,17 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Car Management API</p>
+              <div>
+                <p>Car Management API</p>
+                <p>(Nodejs, Expressjs, PostgreSQL)</p>
+              </div>
+              <a
+                href="https://github.com/ilyasmuhlisin/Car-Management-Api"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
             </li>
           </ul>
         </article>
@@ -49,21 +165,50 @@ function Services() {
             <h3>Fullstack Web</h3>
           </div>
           <ul className="service__list">
-            <li>
+            <li className="">
               <BiCheck className="service__list-icon" />
-              <p>EngLearn Website</p>
+              <div>
+                <p>EngLearn Website</p>
+                <p>(CSS, Javascript, Bootstrap, PHP, Mysql)</p>
+              </div>
+              <a
+                href="https://github.com/ilyasmuhlisin/EngLearn-Website"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              {/* </div> */}
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Food Order Website</p>
+              <div>
+                <p>Food Order Website</p>
+                <p>(CSS, Javascript, Bootstrap, PHP, Mysql)</p>
+              </div>
+              <a
+                href="https://github.com/ilyasmuhlisin/food-order"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>E-commerce SecondHand Website</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>E-commerce JS Mastery with stripe</p>
+              <div>
+                <p>E-commerce SecondHand Website</p>
+                <p>
+                  (CSS, Bootstrap, Nextjs, Redux, Nodejs, Expressjs, PostgreSQL)
+                </p>
+              </div>
+              <a
+                href="https://github.com/second-hand-kelompok2"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
             </li>
           </ul>
         </article>

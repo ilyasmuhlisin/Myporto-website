@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>6+ Month</small>
+              <small>1 year</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -31,19 +31,16 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Project</h5>
-              <small>3+ Completed</small>
+              <small>Completed</small>
             </article>
           </div>
           <p>
-            Saya adalah mahasiswa semester 7 program studi Teknik Informatika di
-            Universitas Muhammadiyah Surakarta. Saya bertujuan untuk menjadi
-            seorang software developer. Semantara saya fokus untuk meningkatkan
-            kemampuan pembuatan website, oleh karena itu saya selalu tertantang
-            dengan proyek baru dalam pembuatan website
+            Saya lulusan S1 Teknik Informatika dari Universitas Muhammadiyah
+            Surakarta. Saya bertujuan untuk menjadi seorang web developer. Saya
+            fokus untuk meningkatkan kemampuan pembuatan website, oleh karena
+            itu saya selalu tertantang dengan proyek baru dalam pembuatan
+            website
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
         </div>
       </div>
     </section>

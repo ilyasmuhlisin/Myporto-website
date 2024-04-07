@@ -77,9 +77,6 @@ const Portofolio = () => {
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
-                {/* <a href={github} className="btn btn-primary" target="_blank">
-                  Github
-                </a> */}
               </div>
             </article>
           );
